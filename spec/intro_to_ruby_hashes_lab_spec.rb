@@ -35,7 +35,7 @@ describe "building a multidimensional monopoly hash" do
 
   describe "adding key-value pairs to the second level of the monopoly hash that we started building in the #monopoly method" do
     describe "#monopoly_with_second_tier" do
-      it "sets the first key of the :railroads hash to a symbol, :pieces, whose value is the integer 4" do
+      it "sets the first key of the :railroads hash to a symbol, whose value is the integer 4" do
         # the goal of this part of the lab is to have you build the multidimentional monopoly hash in sequential order
         # hence the solution to this (and the rest of the tests in this lab) builds on top of each other.
 
